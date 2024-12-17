@@ -6,9 +6,9 @@ body {
   font-family: "Work Sans", sans-serif;
   margin: 0;
   background: rgb(0,0,0);
-background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(255,208,105,1) 0%, rgba(228,71,255,1) 100%);
-color:#fff;
-align-items: flex-end;
+  background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(255,208,105,1) 0%, rgba(228,71,255,1) 100%);
+  color:#fff;
+  align-items: flex-end;
   justify-content: center;
   min-height: 100vh;
   background-color: var(--dark-color);
@@ -139,16 +139,6 @@ html,body{
 .text-box span {
   visibility: hidden;
 }
-
-/*.text-box .fake-btn {
-  background-color: rgb(21, 161, 237);
-  border-radius: 3px;
-  bottom: -50px;
-  color: #fff;
-  padding: .5rem 1rem;
-  position: absolute;
-  right: 5px;
-}*/
 
 .five p {
   font-size: 2rem;
@@ -339,6 +329,9 @@ html,body{
 }
 
 @media screen and (max-width: 500px) {
+  .foto1, .foto2{
+    display: none;
+  }
   .container {
     width: 100%;
   }@media screen and (max-width: 500px) {
